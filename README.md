@@ -2,15 +2,11 @@
 
 A responsive "table" that's not really a table, but it almost looks like one!
 
-* todo: describe things a bit more
-
----
+*todo: describe things a bit more*
 
 ## Demo
 
 [http://fromtheoutfit.github.io/responsive_faux_table/](http://fromtheoutfit.github.io/responsive_faux_table/)
-
----
 
 ## Current Browser Support
 
@@ -27,5 +23,3 @@ A responsive "table" that's not really a table, but it almost looks like one!
 * Blackberry Browser 10+
 
 Source: [http://caniuse.com/flexbox](http://caniuse.com/flexbox)
-
----
