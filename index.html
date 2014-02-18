@@ -105,11 +105,11 @@
                 rootElem = document.querySelector('html');
 
             // Add some inline styles to testElem.
-            testElem.style.cssText = 'display:flex; display:-webkit-flex;';
+            testElem.style.cssText = 'display:-webkit-flex; display:flex;';
 
-            // If the value of the display property is not empty, which
-            // means the properties:values we assigned above are supported.
-            if (testElem.style.display !== '') {
+            // If the value of the display property is now equal to a
+            // supported form of flex, flexbox is supported.
+            if (/flex/.text(testElem.style.display)) {
 
                 // Append a 'flexbox' class to rootElem.
                 rootElem.className = rootElem.className + ' flexbox';
