@@ -96,5 +96,23 @@
 
         </div><!-- .faux-table -->
 
+        <script>
+            // Create a div element and assign it to the variable testElem.
+            // Assign the HTML element to the variable rootElem.
+            var testElem = document.createElement('div'),
+                rootElem = document.querySelector('html');
+
+            // Add some inline styles to testElem.
+            testElem.style.cssText = 'display:flex; display:-webkit-flex;';
+
+            // If the value of the display property is not empty, which
+            // means the properties:values we assigned above are supported.
+            if (testElem.style.display !== '') {
+
+                // Append a 'flexbox' class to rootElem.
+                rootElem.className = rootElem.className + ' flexbox';
+            }
+        </script>
+
     </body>
 </html>
