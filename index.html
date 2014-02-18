@@ -109,7 +109,7 @@
 
             // If the value of the display property is now equal to a
             // supported form of flex, flexbox is supported.
-            if (/flex/.text(testElem.style.display)) {
+            if (/flex/.test(testElem.style.display)) {
 
                 // Append a 'flexbox' class to rootElem.
                 rootElem.className = rootElem.className + ' flexbox';
