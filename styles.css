@@ -68,7 +68,7 @@
         flex-wrap: wrap; /* It also needs to allow its children to wrap. */
     }
 
-    .flexbox .flexbox .faux-table dl:first-of-type dt {
+    .flexbox .faux-table dl:first-of-type dt {
         -webkit-align-self: flex-start; /* Safari: All <dt> elements in the first 'row' will align themselves to the top of the flexbox parent. */
         align-self: flex-start; /* All <dt> elements in the first 'row' will align themselves to the top of the flexbox parent. */
         background-color: black;
