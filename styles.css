@@ -32,7 +32,7 @@
     content: ":";
 }
 
-@media (min-width:37.5em) {
+@media (min-width:37.5em) { /* 37.5em = 600px */
 
     /* Reset 'mobile' selectors from above. */
     .flexbox .faux-table dl {
