@@ -23,6 +23,7 @@
 .faux-table dt {
     clear: left;
     float: left;
+    font-weight: bold;
     margin-right: .25rem;
 }
 
@@ -42,6 +43,7 @@
     .flexbox .faux-table dt {
         clear: none;
         float: none;
+        font-weight: normal;
         margin-right: 0;
     }
 
