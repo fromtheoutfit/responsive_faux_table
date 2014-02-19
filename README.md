@@ -39,7 +39,7 @@ In [index.html](https://github.com/fromtheoutfit/responsive_faux_table/blob/mast
 
 ## CSS
 
-The [stylesheet](https://github.com/fromtheoutfit/responsive_faux_table/blob/master/styles.css) takes a mobile-first approach to *lightly* style the `<dl>`, `<dt>`, and `<dd>` elements, then, at [an easy-to-change viewport width](https://github.com/fromtheoutfit/responsive_faux_table/blob/master/styles.css#L34), it utilizes the [flexible box](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes) layout mode to nudge those elements into something that looks like a simple table. [Take a look at it](https://github.com/fromtheoutfit/responsive_faux_table/blob/master/styles.css)—it’s packed with comments that explain how it works.
+The [stylesheet](https://github.com/fromtheoutfit/responsive_faux_table/blob/master/styles.css) takes a mobile-first approach to *lightly* style the `<dl>`, `<dt>`, and `<dd>` elements, then, at [an easy-to-change viewport width](https://github.com/fromtheoutfit/responsive_faux_table/blob/master/styles.css#L35), it utilizes the [flexible box](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes) layout mode to nudge those elements into something that looks like a simple table. [Take a look at it](https://github.com/fromtheoutfit/responsive_faux_table/blob/master/styles.css)—it’s packed with comments that explain how it works.
 
 ## JavaScript
 
